@@ -9,7 +9,7 @@ int reverse1(int a, int i = 1) {
     if (a < 10) {
         return a * pow(10, i - 1);
     } else {
-        int tmp = a, j = 0;
+        int tmp = a & 1001, j = 0;
         while (tmp > 10) {
             tmp /= 10;
             j++;

@@ -4,4 +4,4 @@ project(while)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(while main.cpp)
-add_executable(while_hint main_hint.cpp)
+add_executable(while_hint main_recursion_hint.cpp)
